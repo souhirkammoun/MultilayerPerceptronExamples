@@ -10,7 +10,7 @@ Use Keras if you need a deep learning library that:
 Visit our presentation to leran more about MLP : https://urlz.fr/bibz;
 See a complete example in : https://github.com/souhirkammoun/MultilayerPerceptronExamples/blob/master/MLPinKeraswithIRISdataset.ipynb
 ##### Multilayer Perceptrons
-- Multilayer feedforward neural networks are a special type of fully connectednetwork with multiple single neurons. They are also called Multilayer Perceptrons (MLP). The following figure illustrates the concept of an MLP consisting of three layers
+- Multilayer feedforward neural networks are a special type of fully connectednetwork with multiple single neurons. They are also called Multilayer Perceptrons (MLP). 
 
-Copyright © 2019 developped by  **Avengers ISI **
+Copyright © 2019 developped by  Avengers ISI 
 
