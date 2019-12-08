@@ -10,23 +10,56 @@ Use Keras if you need a deep learning library that:
 Visit our presentation to leran more about MLP : https://urlz.fr/bibz;
 See a complete example in : https://github.com/souhirkammoun/MultilayerPerceptronExamples/blob/master/MLPinKeraswithIRISdataset.ipynb
 ##### Multilayer Perceptrons
-- 
-
-Image:
 - Multilayer feedforward neural networks are a special type of fully connected network with multiple single neurons. They are also called Multilayer Perceptrons (MLP). The following figure illustrates the concept of an MLP consisting of three layers:
 
 
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--5hmoQpw5--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/720/1%2AvWRGnasRs2zo3GhTHlmIfg.jpeg)
+
 - The MLP depicted in the preceding figure has one input layer, one hidden layer, and one output layer. The units in the hidden layer are fully connected to the input layer, and the output layer is fully connected to the hidden layer. If such a network has more than one hidden layer, we also call it a deep artificial neural network.
 
 #### MNIST
 The MNIST dataset in four parts, as listed here:
-- Training set images: train-images-idx3-ubyte.gz — 60,000 samples
-- Training set labels: train-labels-idx1-ubyte.gz — 60,000 labels
-- Test set images: t10k-images-idx3-ubyte.gz — 10,000 samples
-- Test set labels: t10k-labels-idx1-ubyte.gz — 10,000 labels
+- Training set images: x_train-images — 60,000 samples
+- Training set labels: y_train-labels- — 60,000 labels
+- Test set images: x_test— 10,000 samples
+- Test set labels: y_labels — 10,000 labels
 
 The training set consists of handwritten digits from 250 different people (50% high school students, 50% employees from the Census Bureau). The test set contains handwritten digits from different people.
+-  The following figure illustrates our simple artificial neural network in the first example:
+![](https://github.com/sausheong/pynn/raw/master/imgs/nn.png)
 
-Copyright © 2019 developped by  Avengers ISI 
+- The neural network had 3 layers, the first (input) layer has 784 neurons (28 x 28 pixels), the second (hidden) layer has 512 neurons and the final (output) layer has 10 neurons.
+####  Iris 
+- This is the "Iris" dataset. Originally published at UCI Machine Learning Repository: Iris Data Set, this small dataset from 1936 is often used for testing out machine learning algorithms and visualizations (for example, Scatter Plot). Each row of the table represents an iris flower, including its species and dimensions of its botanical parts, sepal and petal, in centimeters.
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Iris_dataset_scatterplot.svg/220px-Iris_dataset_scatterplot.svg.png)
+
+- The implementation of a multilayer perceptron neural network from scratch on the famous 'iris' dataset. In this model, I present a three layer neural network with a relu activation function for the hidden layer and a softmax activation function for the output layer.
+
+- Attribute Information:
+
+1. sepal length in cm
+1. sepal width in cm
+1. petal length in cm
+1. petal width in cm
+1. class:
+-- Iris Setosa
+-- Iris Versicolour
+-- Iris Virginica
+
+
+
+
+- All the implementations below follow the same generic steps:
+
+1. Set up the parameters and load the datasets (most frameworks have a means to load standard datasets like MNIST)
+1. Define the neural network by creating a mlp function that creates and returns the neural network
+1. Define the train function
+1. Define the predict function
+1. Create a main that allows the user to first train using the training dataset (60,000 images) then predict using the test dataset (10,000 images)
+ - For this project we used Google's cloud IDE Colaboratory to develop in,  It is simple and better way of learning machine learning and deep learning on cloud
+
+
+----------------------------------------------------------
+###### Copyright © 2019 developped by ***Avengers Isi***
+------------------------------------------------------------
 
