@@ -10,7 +10,23 @@ Use Keras if you need a deep learning library that:
 Visit our presentation to leran more about MLP : https://urlz.fr/bibz;
 See a complete example in : https://github.com/souhirkammoun/MultilayerPerceptronExamples/blob/master/MLPinKeraswithIRISdataset.ipynb
 ##### Multilayer Perceptrons
-- Multilayer feedforward neural networks are a special type of fully connectednetwork with multiple single neurons. They are also called Multilayer Perceptrons (MLP). 
+- 
+
+Image:
+- Multilayer feedforward neural networks are a special type of fully connected network with multiple single neurons. They are also called Multilayer Perceptrons (MLP). The following figure illustrates the concept of an MLP consisting of three layers:
+
+
+![](https://res.cloudinary.com/practicaldev/image/fetch/s--5hmoQpw5--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/720/1%2AvWRGnasRs2zo3GhTHlmIfg.jpeg)
+- The MLP depicted in the preceding figure has one input layer, one hidden layer, and one output layer. The units in the hidden layer are fully connected to the input layer, and the output layer is fully connected to the hidden layer. If such a network has more than one hidden layer, we also call it a deep artificial neural network.
+
+####MNIST
+The MNIST dataset in four parts, as listed here:
+- Training set images: train-images-idx3-ubyte.gz — 60,000 samples
+- Training set labels: train-labels-idx1-ubyte.gz — 60,000 labels
+- Test set images: t10k-images-idx3-ubyte.gz — 10,000 samples
+- Test set labels: t10k-labels-idx1-ubyte.gz — 10,000 labels
+
+The training set consists of handwritten digits from 250 different people (50% high school students, 50% employees from the Census Bureau). The test set contains handwritten digits from different people.
 
 Copyright © 2019 developped by  Avengers ISI 
 
