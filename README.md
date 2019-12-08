@@ -25,10 +25,10 @@ The MNIST dataset in four parts, as listed here:
 - Test set labels: y_labels — 10,000 labels
 
 The training set consists of handwritten digits from 250 different people (50% high school students, 50% employees from the Census Bureau). The test set contains handwritten digits from different people.
--  The following figure illustrates our simple artificial neural network in the first example:
+-  The following figure illustrates a simple artificial neural network:
 ![](https://github.com/sausheong/pynn/raw/master/imgs/nn.png)
 
-- The neural network had 3 layers, the first (input) layer has 784 neurons (28 x 28 pixels), the second (hidden) layer has 512 neurons and the final (output) layer has 10 neurons.
+- In our example, the neural network had 4 layers, the first (input) layer has 784 neurons (28 x 28 pixels), the second (hidden) layer has 512 neurons, the third has 256 neurons and the final (output) layer has 10 neurons.
 ####  Iris 
 - This is the "Iris" dataset. Originally published at UCI Machine Learning Repository: Iris Data Set, this small dataset from 1936 is often used for testing out machine learning algorithms and visualizations (for example, Scatter Plot). Each row of the table represents an iris flower, including its species and dimensions of its botanical parts, sepal and petal, in centimeters.
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Iris_dataset_scatterplot.svg/220px-Iris_dataset_scatterplot.svg.png)
@@ -51,11 +51,11 @@ The training set consists of handwritten digits from 250 different people (50% h
 
 - All the implementations below follow the same generic steps:
 
-1. Set up the parameters and load the datasets (most frameworks have a means to load standard datasets like MNIST)
+1. Set up the parameters and load the datasets (most frameworks have a means to load standard datasets like MNIST and IRIS)
 1. Define the neural network by creating a mlp function that creates and returns the neural network
 1. Define the train function
 1. Define the predict function
-1. Create a main that allows the user to first train using the training dataset (60,000 images) then predict using the test dataset (10,000 images)
+1. Create a main that allows the user to first train using the training dataset (60,000 images in MNIST dataset) then predict using the test dataset (10,000 images in MNSIT dataset)
  - For this project we used Google's cloud IDE Colaboratory to develop in,  It is simple and better way of learning machine learning and deep learning on cloud
 
 
