@@ -19,7 +19,7 @@ Image:
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--5hmoQpw5--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/720/1%2AvWRGnasRs2zo3GhTHlmIfg.jpeg)
 - The MLP depicted in the preceding figure has one input layer, one hidden layer, and one output layer. The units in the hidden layer are fully connected to the input layer, and the output layer is fully connected to the hidden layer. If such a network has more than one hidden layer, we also call it a deep artificial neural network.
 
-####MNIST
+#### MNIST
 The MNIST dataset in four parts, as listed here:
 - Training set images: train-images-idx3-ubyte.gz — 60,000 samples
 - Training set labels: train-labels-idx1-ubyte.gz — 60,000 labels
